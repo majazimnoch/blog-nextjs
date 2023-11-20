@@ -13,7 +13,7 @@ export default function Home() {
         <p className="mt-12 mb-12 text-3xl text-center dark:text-white">
           Hello and welcome 👋
           <span className="whitespace-nowrap">
-            I am <span className="font-bold">Maja</span>.
+            This is a  <span className="font-bold">blog</span> made with Next.js, Typescript and Tailwind.
           </span>
         </p>
           <h1>
