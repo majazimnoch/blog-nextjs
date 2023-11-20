@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Link from "next/link"
 export default function Home() {
   return (
     <div>
@@ -13,6 +14,9 @@ export default function Home() {
             I am <span className="font-bold">Maja</span>.
           </span>
         </p>
+        <h1>
+          Linkt to the first post. <Link href="/posts/">Click</Link>
+        </h1>
       </main>
     </div>
 
