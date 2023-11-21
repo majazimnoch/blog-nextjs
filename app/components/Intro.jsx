@@ -15,8 +15,7 @@ export default function Intro() {
             label="Click here"
             colour={"yellow"}
             large
-          
-          >About</Button>
+          />
         </Link>
       </div>
       <div>
