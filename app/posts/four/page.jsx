@@ -3,7 +3,7 @@ import React from 'react'
 export default function page() {
   return (
     <div>
-      <p>Latest posts</p>
+      <h1>Article 4</h1>
     </div>
   )
 }

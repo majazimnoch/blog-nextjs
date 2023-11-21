@@ -17,17 +17,6 @@ export default function Home() {
       <Intro />
       <Group />
       <main className="px-8 mx-auto">
-        <div>
-          <h1>
-            Linkt to the first post. <Link href="/posts/">Click</Link>
-          </h1>
-          <Button
-            label="Button Text"
-            colour={"yellow"}
-            large
-            count={8}
-          />
-        </div>
       </main>
     </div>
   );
