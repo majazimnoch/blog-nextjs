@@ -2,41 +2,19 @@
 
 https://chic-truffle-c789d4.netlify.app/
 
+## Deployed:
+This is a simple page "blog" made using Next.js, Typescript and Tailwind for styling.
+
+I started by setting up a new Next.js project using npx. 
+I'm building the page step by step by adding new components. As I am still new to Next.js I study simultaneusly vercel's documentation (about adding Links, Images, new pages).
+
+On Tuesday, I created two new sections, Intro and Group components. I am styling it with CSS grid. In the Group component I have 4 articles and each articles' header and image naviagtes to a new page. I achieveed it by warpping it in Link componnet. I have each article Article a classname (so I can style each article differently). Href prop specifies the destination page for each article. 
+
 ##  info
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
