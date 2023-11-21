@@ -2,6 +2,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Button from "./components/Button";
+import Round from "./components/Round";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
@@ -10,24 +12,18 @@ export default function Home() {
         <title>hdsaj</title>
         <meta name="description" content="A simple Blog" />
       </Head>
-      <main className="px-6 mx-auto">
-        <p className="mt-12 mb-12 text-3xl text-center dark:text-white">
-          Hello and welcome 👋
-          <span className="whitespace-nowrap">
-            This is a  <span className="font-bold">blog</span> made with Next.js, Typescript and Tailwind.
-          </span>
-        </p>
-          <h1>
-          Linkt to the first post. <Link href="/posts/">Click</Link>
-          </h1>
-          <Button label="Button Text" colour={'yellow'} large count={8}></Button>
+      <Hero />
+      <main className="px-8 mx-auto">
         <div>
-          <Image
-            src="/images/ocean.jpg"
-            alt="ocean"
-            height={244}
-            width={244}
-          />
+          <h1>
+            Linkt to the first post. <Link href="/posts/">Click</Link>
+          </h1>
+          <Button
+            label="Button Text"
+            colour={"yellow"}
+            large
+            count={8}
+          ></Button>
         </div>
       </main>
     </div>
