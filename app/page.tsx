@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import Button from "./components/Button";
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
         </p>
           <h1>
           Linkt to the first post. <Link href="/posts/">Click</Link>
-        </h1>
+          </h1>
+          <Button label="Button Text" colour={'yellow'} large count={8}></Button>
         <div>
           <Image
             src="/images/ocean.jpg"
