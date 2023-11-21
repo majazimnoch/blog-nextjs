@@ -11,17 +11,19 @@ export default function Hero() {
           alt="ocean"
           layout="fill"
           objectFit="cover"
-          style={{ opacity: 0.4 }}
+          // style={{ opacity: 0.4 }}
         />
       </div>
-        <p className="mt-12 mb-12 text-3xl text-center dark:text-white">
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+        <p className="text-3xl text-center text-red-800">
           Hello and welcoMMme 👋
-          <span className="whitespace-nowrap">
+          <span className="whitespace-nowrap text-red-400">
           This is a <span className="font-bold">blog</span> made with
           Next.js, Typescript and Tailwind.
           </span>
           <Round />
         </p>
+      </div>
     </div>
   )
 }
