@@ -4,12 +4,12 @@ interface props {
   colour?: any;
   large?: boolean;
 }
-const Button = ({ label, count, colour, large }: props) => {
+const Button = ({ label, colour, large }: props) => {
   const classList = "p-5 bg-gray-100";
 
   return (
     <div className="my-3">
-      <button className={classList}>{`${label} ${count}`}</button>
+      <button className={classList}>{`${label}`}</button>
     </div>
   );
 };

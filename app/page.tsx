@@ -2,9 +2,9 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Button from "./components/Button";
-import Intro from "./components/Intro"
+import Intro from "./components/Intro";
 import Hero from "./components/Hero";
-import Group from "./components/Group"
+import Group from "./components/Group";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="description" content="A simple Blog" />
       </Head>
       <Hero />
-      <Intro/>
+      <Intro />
       <Group />
       <main className="px-8 mx-auto">
         <div>
@@ -26,7 +26,7 @@ export default function Home() {
             colour={"yellow"}
             large
             count={8}
-          ></Button>
+          />
         </div>
       </main>
     </div>

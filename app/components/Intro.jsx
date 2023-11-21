@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+import Button from './Button'
 
 export default function Intro() {
   return (
@@ -8,6 +10,14 @@ export default function Intro() {
         <h1>
           This is an intro component. This is an intro component. This is an intro component. This is an intro component. This is an intro component. This is an intro component. 
         </h1>
+        <Link href="/posts">
+          <Button
+            label="Click here"
+            colour={"yellow"}
+            large
+          
+          >About</Button>
+        </Link>
       </div>
       <div>
         <Image
