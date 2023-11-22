@@ -10,8 +10,8 @@ export default function Navbar() {
   const formattedDate = date.format(now, 'ddd, MMM DD, YYYY'); 
 
   return (
-    <div className="flex flex-row justify-between items-center px-5 bg-slate-900">
-      <p className="text-red-600">Today&apos;s date: {formattedDate}</p>
+    <div className="flex flex-row justify-between items-center px-5 bg-snow">
+      <p className="text-wood">Today&apos;s date: <span className="font-bold">{formattedDate}</span></p>
       <div className="flex flex-row gap-5">
         <Link href="/posts">
             <Button
