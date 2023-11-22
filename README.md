@@ -5,7 +5,7 @@ https://chic-truffle-c789d4.netlify.app/
 ## Deployed:
 This is a simple page "blog" made using Next.js, Typescript and Tailwind for styling.
 
-Very simple design in Figma is available <a href="https://www.figma.com/file/uZHar7QfUZRfXHUNUGoVN4/Design-of-a-blog-page?type=design&node-id=0-1&mode=design&t=KOg7yclBYYSt3zAb-0">here</a>. It included: state before log in/register, state when we are logged in on the main page of our blog and finally a single article page. 
+Very simple design in Figma is available <a href="https://www.figma.com/file/uZHar7QfUZRfXHUNUGoVN4/Design-of-a-blog-page?type=design&node-id=0-1&mode=design&t=KOg7yclBYYSt3zAb-0" target="_blank">here</a>. It includes: state before log in/register, state when we are logged in on the main page of our blog and finally a single article page. 
 
 I started by setting up a new Next.js project using npx. 
 I'm building the page step by step by adding new components. As I am still new to Next.js I study simultaneusly vercel's documentation (about adding Links, Images, new pages).
