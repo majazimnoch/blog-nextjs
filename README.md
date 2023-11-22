@@ -10,6 +10,8 @@ I'm building the page step by step by adding new components. As I am still new t
 
 On Tuesday, I created two new sections, Intro and Group components. I am styling it with CSS grid. In the Group component I have 4 articles and each articles' header and image naviagtes to a new page. I achieveed it by warpping it in Link componnet. I have each article Article a classname (so I can style each article differently). Href prop specifies the destination page for each article. 
 
+I added npm package date-and-time (npm i date-and-time) for showing current date in the navbar.
+
 ##  info
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
