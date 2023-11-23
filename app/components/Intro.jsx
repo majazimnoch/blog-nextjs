@@ -16,7 +16,7 @@ export default function Intro() {
         <Link href="/posts">
           <Button
             label="Click here"
-            colour={"yellow"}
+            colour={"green"}
             large
           />
         </Link>

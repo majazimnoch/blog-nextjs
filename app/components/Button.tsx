@@ -5,7 +5,7 @@ interface props {
   large?: boolean;
 }
 const Button = ({ label, colour, large }: props) => {
-  const classList = "p-5 bg-gray-100";
+  const classList = "p-3 bg-transparent border rounded-lg"
 
   return (
     <div className="my-3">

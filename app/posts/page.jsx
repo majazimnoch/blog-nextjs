@@ -66,13 +66,6 @@ export default function page() {
             As we descended from the heights, the mountains whispered a promise – a promise to welcome us back whenever our souls yearned for their serenity. Our family getaway had not just been a vacation; it was a pilgrimage to the heart of nature, a sacred communion with the mountains that left an indelible mark on our lives. Until the next ascent, we carried the mountains within us, their serenity forever etched in the story of our family&apos;s unforgettable journey.
             </p>
             <p className="text-base antialiased text-wood">Written by: Tasty Taster</p>
-            <Link href="/posts">
-            <Button
-            label="Click here"
-            colour={"yellow"}
-            large
-            />
-            </Link>
             <Link href="/">
                 <Button
                 label="Go back"
