@@ -19,13 +19,13 @@ export default function page() {
       <div className="flex flex-col gap-10 gap-x-12 gap-y-0 px-40 py-10">
         <div className="flex flex-col gap-8">
           <h1 className="text-2xl text-wood">
-          A Mountains Serenity. An Unforgettable Family Getaway
+          A Mountains Serenity. An Unforgettable Family Gateway
           </h1>
           <div className="flex flex-row justify-between">
-            <p className="text-sm antialiased text-wood">1 January 2022</p>
+            <p className="antialiased text-wood text-base">1 January 2022</p>
             <div className="flex flex-row gap-4">
                 <div className="flex flex-row gap-2">
-                    <p>2 x </p>
+                    <p className="text-base">2 x </p>
                     <Image
                         src="/images/eyesdown.png"
                         alt="like"
@@ -34,7 +34,7 @@ export default function page() {
                     />
                 </div>
                 <div className="flex flex-row gap-2">
-                    <p>1 x </p>
+                    <p className="text-base">1 x </p>
                     <Image
                         src="/images/like2.png"
                         alt="like"
@@ -50,52 +50,29 @@ export default function page() {
             width={1500}
             height={300}
           />
-            <h3 className="text-wood">
-            Chapter 1: The Call of the Mountains
-            </h3>
-
-        <p className="text-wood">
-        As the sun dipped below the horizon, casting a warm glow on the valley below, the allure of the mountains beckoned our family to a journey of serenity. The call of the mountains echoed in the wind, drawing us closer to nature&apos;s grandeur. With backpacks filled with anticipation and hearts brimming with excitement, we set forth on a quest for tranquility.
-        </p>
-        <p>
-        Chapter 2: A Tapestry of Sunrises
-
-        Nestled in the heart of the mountainous landscape, each sunrise unfolded like a mesmerizing tapestry. The first light painted the sky in hues of pink and orange, casting a golden glow upon the peaks. As we stood on the edge of the world, the mountains whispered secrets to the dawn, and we, privileged spectators, witnessed the birth of a new day.
-
-        Chapter 3: Trails of Discovery
-
-        Our days were filled with the thrill of exploration as we ventured into winding trails that crisscrossed the mountainsides. Each step brought us closer to hidden treasures – alpine meadows adorned with vibrant wildflowers, secret waterfalls concealed in the heart of the forest, and breathtaking vistas that left us in awe. The mountains, it seemed, held the key to a world waiting to be discovered.
-
-        Chapter 4: Campfire Chronicles
-
-        As the sun dipped below the peaks, our evenings came alive with the crackling warmth of a campfire. Surrounded by the scent of pine and the symphony of nocturnal creatures, we shared stories that echoed through the valleys. The mountain breeze carried our laughter, blending it with the rustle of leaves, creating a harmony that would forever resonate in the chambers of our memories.
-
-        Chapter 5: Bonding Amidst Peaks
-
-        In the embrace of the mountains, our family bonds strengthened like the roots of ancient trees. Whether conquering a challenging trail together or simply sharing quiet moments overlooking a vast expanse, the mountains became the backdrop of our shared experiences. It was a sanctuary where laughter echoed, and the unspoken language of love was understood by all.
-
-        Chapter 6: The Culmination of Bliss
-
-        As our mountainous sojourn drew to a close, we stood on the summit, the world below at our feet. The panoramic view was a metaphor for the journey we undertook – filled with ups and downs, challenges, and moments of sheer bliss. The mountains, stoic witnesses to our adventure, had woven a narrative of family unity and the profound serenity found in their midst.
-
-        Epilogue: A Promise of Return
-
-        As we descended from the heights, the mountains whispered a promise – a promise to welcome us back whenever our souls yearned for their serenity. Our family getaway had not just been a vacation; it was a pilgrimage to the heart of nature, a sacred communion with the mountains that left an indelible mark on our lives. Until the next ascent, we carried the mountains within us, their serenity forever etched in the story of our family&apos;s unforgettable journey.
-        </p>
-        <p className="text-sm antialiased text-wood">Written by: Tasty Taster</p>
-        <Link href="/posts">
-          <Button
+            <p className="text-wood text-lg">
+            As the sun dipped below the horizon, casting a warm glow on the valley below, the allure of the mountains beckoned our family to a journey of serenity. The call of the mountains echoed in the wind, drawing us closer to nature&apos;s grandeur. With backpacks filled with anticipation and hearts brimming with excitement, we set forth on a quest for tranquility.
+            Nestled in the heart of the mountainous landscape, each sunrise unfolded like a mesmerizing tapestry. The first light painted the sky in hues of pink and orange, casting a golden glow upon the peaks. As we stood on the edge of the world, the mountains whispered secrets to the dawn, and we, privileged spectators, witnessed the birth of a new day.
+            </p>
+            <p className="text-wood text-lg">
+            Our days were filled with the thrill of exploration as we ventured into winding trails that crisscrossed the mountainsides. Each step brought us closer to hidden treasures – alpine meadows adorned with vibrant wildflowers, secret waterfalls concealed in the heart of the forest, and breathtaking vistas that left us in awe. The mountains, it seemed, held the key to a world waiting to be discovered.
+            As the sun dipped below the peaks, our evenings came alive with the crackling warmth of a campfire. Surrounded by the scent of pine and the symphony of nocturnal creatures, we shared stories that echoed through the valleys. The mountain breeze carried our laughter, blending it with the rustle of leaves, creating a harmony that would forever resonate in the chambers of our memories.
+            </p>
+            <p className="text-wood text-lg">
+            In the embrace of the mountains, our family bonds strengthened like the roots of ancient trees. Whether conquering a challenging trail together or simply sharing quiet moments overlooking a vast expanse, the mountains became the backdrop of our shared experiences. It was a sanctuary where laughter echoed, and the unspoken language of love was understood by all.
+            As our mountainous sojourn drew to a close, we stood on the summit, the world below at our feet. The panoramic view was a metaphor for the journey we undertook – filled with ups and downs, challenges, and moments of sheer bliss. The mountains, stoic witnesses to our adventure, had woven a narrative of family unity and the profound serenity found in their midst.
+            </p>
+            <p className="text-wood text-lg">
+            As we descended from the heights, the mountains whispered a promise – a promise to welcome us back whenever our souls yearned for their serenity. Our family getaway had not just been a vacation; it was a pilgrimage to the heart of nature, a sacred communion with the mountains that left an indelible mark on our lives. Until the next ascent, we carried the mountains within us, their serenity forever etched in the story of our family&apos;s unforgettable journey.
+            </p>
+            <p className="text-base antialiased text-wood">Written by: Tasty Taster</p>
+            <Link href="/posts">
+            <Button
             label="Click here"
             colour={"yellow"}
             large
-          />
-        </Link>
-      </div>
-    </div>
-        <h1>
-        Main post
-        </h1>
-        <h2>
+            />
+            </Link>
             <Link href="/">
                 <Button
                 label="Go back"
@@ -103,7 +80,8 @@ export default function page() {
                 large
                 />
             </Link> 
-        </h2>
+      </div>
+    </div>
         <Group />
         <Footer />
     </div>

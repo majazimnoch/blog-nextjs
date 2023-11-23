@@ -26,19 +26,26 @@ export default function Navbar() {
       </div>
       <div className="flex flex-row gap-5">
         <Link href="/posts">
-            <Button
-                label="Add a new post"
-                colour={"yellow"}
-                large
+          <Button
+            label="User"
+            colour={"yellow"}
+            large
             />
-            </Link>
-            <Link href="/posts">
-            <Button
-                label="Log out"
-                colour={"yellow"}
-                large
+        </Link>
+        <Link href="/posts">
+          <Button
+            label="Add a new post"
+            colour={"yellow"}
+            large
+          />
+        </Link>
+        <Link href="/posts">
+          <Button
+            label="Log out"
+            colour={"yellow"}
+            large
             />
-            </Link>
+        </Link>
       </div>
     </div>
   )

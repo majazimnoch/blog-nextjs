@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>hdsaj</title>
+        <title>Blog page</title>
         <meta name="description" content="A simple Blog" />
       </Head>
       <Hero />
