@@ -14,6 +14,8 @@ On Tuesday, I created two new sections, Intro and Group components. I am styling
 
 I added npm package date-and-time (npm i date-and-time) for showing current date in the navbar.
 
+I installed clsx library package to be able to use conditional class rendering.
+
 ##  info
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
