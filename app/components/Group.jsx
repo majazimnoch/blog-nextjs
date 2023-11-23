@@ -21,14 +21,21 @@ const Article = ({ title, photo, text, articleClass, href, date }) => (
             />
           </div>
       </div>
-      <p className={clsx('text-xs')}>{date}</p>
+      <div className="flex flex-row bg-snow p-4 rounded justify-between relative group over">
+        <p className={clsx('text-xs')}>{date}</p>
+        <Image
+          src="/images/like2.png"
+          alt="like"
+          height={20}
+          width={20} 
+          className="transition-transform duration-300 ease-in-out transform scale-80 group-hover:scale-110"
+        />
+      </div>
       <p className="text-sm antialiased">{text}</p>
     </div>
   </Link>
 );
-{/*  <div className={`article ${articleClass}`}>
 
-*/}
 export default function Group() {
   return (
     <div className="grid grid-cols-4 grid-rows-1 px-40 py-20 bg-grass gap-4">
