@@ -8,10 +8,10 @@ export default function Intro() {
     <div className="grid grid-cols-2 grid-rows-1 gap-x-12 gap-y-0 px-40 py-20">
       <div className="flex flex-col gap-4">
         <h1 className="text-2xl">
-          <span className="bg-grass p-1 italic uppercase ">A Seaside Serenity.</span> An Unforgettable Family Getaway
+          <span className="bg-grass p-1 italic uppercase ">A Mountains Serenity.</span> An Unforgettable Family Getaway
         </h1>
         <p>
-          Beneath the azure sky and the soothing sounds of crashing waves, our family embarked on an unforgettable journey to the sea. As the rhythmic tide pulled us into its embrace, we discovered the magic that only a seaside escape with loved ones could offer. Join us on a virtual voyage as we share the tales of our family adventure, where each sunset was a masterpiece and every wave carried the promise of new memories
+        Under the vast cerulean sky, amid the tranquil melodies of whispering winds, our family set out on a remarkable expedition to the mountains. Enveloped by the rhythmic dance of the towering peaks, we uncovered the enchantment that only a mountainous retreat with cherished ones can provide. Come along on this virtual odyssey as we recount the stories of our family escapade, where each sunrise painted a breathtaking canvas, and every gust of wind bore the pledge of forging lasting memories.
         </p>
         <Link href="/posts">
           <Button

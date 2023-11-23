@@ -15,17 +15,9 @@ const Article = ({ title, photo, text, articleClass, href }) => (
   </Link>
 );
 
-// const Article = ({ title, photo, text, articleClass }) => (
-//   <div className={`article ${articleClass}`}>
-//       <h1>{title}</h1>
-//       <Image src={photo} alt="photo of an article" height={300} width={300} />
-//       <p>{text}</p>
-//   </div>
-// )
-
 export default function Group() {
   return (
-    <div className="grid grid-cols-4 grid-rows-1">
+    <div className="grid grid-cols-4 grid-rows-1 px-40 py-20 gap-10 bg-grass">
         <Article
           title="Header of an article"
           photo="/images/ocean.jpg"
