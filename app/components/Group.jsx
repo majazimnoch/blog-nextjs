@@ -9,13 +9,17 @@ const Article = ({ title, photo, text, articleClass, href }) => (
     { /*section below will have both the article class (for common styling among all articles) and the dynamic class specified by the articleClass prop (for specific styling for this individual article). */}
     <div className={clsx('article', articleClass, 'flex', 'flex-col', 'gap-10', 'justify-around')}>
       <div className="flex flex-col gap-9">
-        <h1 className="text-lg antialiased">{title}</h1>
-          <Image 
-            src={photo} 
-            alt="photo of an article" 
-            height={300} 
-            width={300} 
-          />
+        <h1 className="text-lg antialiased font-semibold">{title}</h1>
+          <div className="relative group over">
+            {/* The group class is a utility class provided by Tailwind CSS that is used to group child elements so that you can apply styles to them based on the state of a parent element (in this case, the hover state). */}
+            <Image 
+              src={photo} 
+              alt="photo of an article" 
+              height={300} 
+              width={300} 
+              className="transition-opacity duration-300 ease-in-out opacity-100 group-hover:opacity-70"
+            />
+          </div>
       </div>
       <p className="text-sm antialiased">{text}</p>
     </div>
