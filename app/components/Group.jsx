@@ -38,7 +38,7 @@ const Article = ({ title, photo, text, articleClass, href, date }) => (
 
 export default function Group() {
   return (
-    <div className="grid grid-cols-4 grid-rows-1 px-40 py-20 bg-forest gap-4">
+    <div className="grid grid-cols-4 grid-rows-1 px-40 py-20 bg-forest gap-8">
         <Article
           title="Serenade of the Desert Sun: A Sunset Symphony"
           photo="/images/sun.jpg"
@@ -56,7 +56,7 @@ export default function Group() {
           date="12 January 2022"
         />
          <Article
-          title="Beneath the Surface: A Journal of Disconnecting Amidst Ocean Depths"
+          title="Beneath the Surface: A Journal of Amidst Ocean Depths"
           photo="/images/snorkeling.jpg"
           text="In the hustle of modernity, a decision brewed—a weekend voyage to the enigmatic waters of Galápagos. Picture this as a diary, a chronicle of my plunge into underwater serenity, leaving behind the digital chatter for the immersive silence of the ocean."
           articleClass="article-3"

@@ -11,7 +11,19 @@ export default function Navbar() {
 
   return (
     <div className="flex flex-row justify-between items-center px-5 bg-snow">
-      <p className="text-wood">Today&apos;s date: <span className="font-bold">{formattedDate}</span></p>
+      <div className="flex flex-row gap-6 items-center">
+        <Link href="/" target="_blank">
+          <Image
+            src="/images/logo-b.png"
+            alt="logo"
+            width={30}
+            height={30}
+            className="rounded"
+          />
+          </Link>
+        <p className="text-wood">Today&apos;s date: <span className="font-bold">{formattedDate}</span>
+        </p>
+      </div>
       <div className="flex flex-row gap-5">
         <Link href="/posts">
             <Button

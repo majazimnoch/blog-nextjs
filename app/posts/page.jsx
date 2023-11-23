@@ -2,6 +2,10 @@ import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
 import Button from '../components/Button'
+import Hero from '../components/Hero'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import Group from '../components/Group'
 
 export default function page() {
   return (
@@ -11,6 +15,7 @@ export default function page() {
         <link rel="icon" href="favicon.ico" />
     </Head>
     <div>
+      <Navbar />
         <h1>
         Main post
         </h1>
@@ -23,6 +28,8 @@ export default function page() {
                 />
             </Link> 
         </h2>
+        <Group />
+        <Footer />
     </div>
    </>
   )
