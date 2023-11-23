@@ -20,28 +20,28 @@ export default function Group() {
     <div className="grid grid-cols-4 grid-rows-1 px-40 py-20 gap-10 bg-grass">
         <Article
           title="Header of an article"
-          photo="/images/ocean.jpg"
+          photo="/images/sun.jpg"
           text="Text of an article"
           articleClass="article-1"
           href="/posts/one"
         />
          <Article
           title="Header of an article"
-          photo="/images/ocean.jpg"
+          photo="/images/paris.jpg"
           text="Text of an article"
           articleClass="article-2"
           href="/posts/two"
         />
          <Article
           title="Header of an article"
-          photo="/images/ocean.jpg"
+          photo="/images/snorkeling.jpg"
           text="Text of an article"
           articleClass="article-3"
           href="/posts/three"
         />
          <Article
           title="Header of an article"
-          photo="/images/ocean.jpg"
+          photo="/images/spa.jpg"
           text="Text of an article"
           articleClass="article-4"
           href="/posts/four"
