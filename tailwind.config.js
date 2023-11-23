@@ -10,9 +10,9 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'forest': '#233c2e',
-      'snow': '#eaf1ec',
-      'grass': '#8da75e',
+      'forest': '#233C2E',
+      'snow': '#EAF1EC',
+      'grass': '#8DA75E',
       'wood': '#473948'
     },
   },
