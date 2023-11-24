@@ -44,7 +44,7 @@ export default function Group() {
           photo="/images/sun.jpg"
           text="In the vast expanse of the desert, where time slows and silence reigns, I witnessed a spectacle that transcends earthly beauty—the desert sunset. Join me in this diary entry, a poetic reflection on the mesmerizing dance of colors as the sun bids adieu to the arid landscape, leaving behind a canvas painted in hues of warmth and wonder."
           articleClass="article-1"
-          href="/posts/one"
+          href="/posts/two"
           date="1 January 2022"
         />
          <Article

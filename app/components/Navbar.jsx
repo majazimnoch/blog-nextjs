@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <div className="flex flex-row justify-between items-center px-5 bg-snow">
       <div className="flex flex-row gap-6 items-center">
-        <Link href="/" target="_blank">
+        <Link href="/">
           <Image
             src="/images/logo-b.png"
             alt="logo"
@@ -32,7 +32,7 @@ export default function Navbar() {
             large
             />
         </Link>
-        <Link href="/posts">
+        <Link href="/posts/form">
           <Button
             label="Add a new post"
             colour={"yellow"}

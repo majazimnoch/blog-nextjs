@@ -12,8 +12,7 @@ export default function Intro() {
             <span className="bg-forest text-snow p-1 uppercase font-thin px-2">A Mountains Serenity</span> 
           </h1>
           <div className="flex flex-row">
-            
-            
+          
             <Image
               src="/images/like2.png"
               alt="like"

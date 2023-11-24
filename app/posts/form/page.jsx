@@ -12,7 +12,7 @@ export default function page() {
     </Head>
     <div>
         <h1>
-        First post
+       Form
         </h1>
         <h2>
             <Link href="/">

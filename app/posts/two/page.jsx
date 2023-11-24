@@ -12,7 +12,7 @@ export default function Posts() {
         </Head>
         <div>
             <h1>
-            Second post
+            First or Second post
             </h1>
             <h2>
                 <Link href="/">
