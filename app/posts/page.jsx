@@ -27,19 +27,19 @@ export default function page() {
                 <div className="flex flex-row gap-2">
                     <p className="text-base">2 x </p>
                     <Image
-                        src="/images/eyesdown.png"
-                        alt="like"
-                        height={20}
-                        width={20} 
+                      src="/images/eyesdown.png"
+                      alt="like"
+                      height={20}
+                      width={20} 
                     />
                 </div>
                 <div className="flex flex-row gap-2">
                     <p className="text-base">1 x </p>
                     <Image
-                        src="/images/like2.png"
-                        alt="like"
-                        height={20}
-                        width={20} 
+                      src="/images/like2.png"
+                      alt="like"
+                      height={20}
+                      width={20} 
                     />
                 </div>
             </div>
@@ -67,11 +67,11 @@ export default function page() {
             </p>
             <p className="text-base antialiased text-wood">Written by: Tasty Taster</p>
             <Link href="/">
-                <Button
+              <Button
                 label="Go back"
                 colour={"yellow"}
                 large
-                />
+              />
             </Link> 
       </div>
     </div>
