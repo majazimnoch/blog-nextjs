@@ -4,8 +4,8 @@ import Link
  from 'next/link'
 export default function Footer() {
   return (
-    <div className="flex flex-row justify-center px-10 py-4 gap-40 items-center">
-      <div className="flex flex-row gap-6 items-center">
+    <div className="flex border border-solid border-5px md: flex-col lg:flex-row justify-center px-10 py-4 gap-40 items-center">
+      <div className="flex md: flex-col lg:flex-row gap-6 items-center">
         <p className="bg-white text-black text-sm uppercase tracking-normal font-thin">Website made by <span className="font-semibold">Maja Zimnoch</span>, intern at <span className="font-semibold">AKQA</span></p>
 
         <div className="relative group over">
