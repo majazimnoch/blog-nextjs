@@ -4,9 +4,9 @@ import Link
  from 'next/link'
 export default function Footer() {
   return (
-    <div className="flex md: flex-col lg:flex-row justify-center px-10 py-4 gap-40 items-center">
+    <div className="flex flex-col md:flex-col gap-6 lg:flex-row lg:gap-40 justify-center px-10 py-4 items-center">
      <div className="flex flex-col justify-center items-center lg:flex-row gap-6">
-      <p className="bg-white text-black uppercase tracking-normal font-thin lg:text-sm md:text-3xl text-center"> Website made by <span className="font-semibold">Maja Zimnoch</span>, intern at <span className="font-semibold">AKQA</span>
+      <p className="bg-white text-black uppercase tracking-normal font-thin lg:text-sm sm:text-sm text-center"> Website made by <span className="font-semibold">Maja Zimnoch</span>, intern at <span className="font-semibold">AKQA</span>
       </p>
 
         <div className="flex md: flex-row gap-8 lg:">
