@@ -3,6 +3,7 @@ import Button from './Button';
 import Image from 'next/image';
 
 const Form: React.FC = () => {
+
   return (
     <form className="min-w-full max-w-md mx-auto mt-4 p-10 bg-white shadow-md bg-snow">
       <div className="flex flex-col">
@@ -34,6 +35,8 @@ const Form: React.FC = () => {
 
       {/* Form https://www.youtube.com/watch?v=a2oa0qL4CB8 */}
     </form>
+
+    
   );
 };
 

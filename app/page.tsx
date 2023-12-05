@@ -6,6 +6,7 @@ import Intro from "./components/Intro"
 import Hero from "./components/Hero"
 import Group from "./components/Group"
 import Footer from "./components/Footer";
+// // import Layer from "./components/Layer";
 // import Gallery from "./components/Gallery";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Intro />
+      {/* <Layer /> */}
       {/* <Gallery /> */}
       <Group />
       <Footer />

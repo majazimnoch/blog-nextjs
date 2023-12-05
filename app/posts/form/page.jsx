@@ -22,7 +22,7 @@ export default function page() {
             <p>Please fill in the form below and click the Submit button.</p>
             <Form />
           </div>
-          <div className="flex flex-row gap-10 py-10">
+          <div className="flex flex-row gap-10 px-5 py-10 ">
             <Link href="/">
               <Button
                 label="Go to the main page"
