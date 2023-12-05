@@ -15,6 +15,14 @@ module.exports = {
       'grass': '#8DA75E',
       'wood': '#473948'
     },
+
+    extend: {
+      screens: {
+        'tablet': '640px',  // Example tablet breakpoint
+        'mobile': '480px',  // Example mobile breakpoint
+      }
+    }
+    
   },
   plugins: [],
 }

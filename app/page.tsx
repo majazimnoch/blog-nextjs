@@ -1,11 +1,12 @@
 import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
-import Button from "./components/Button";
+// // import Link from "next/link";
+// // import Image from "next/image";
+// // import Button from "./components/Button";
 import Intro from "./components/Intro";
 import Hero from "./components/Hero";
 import Group from "./components/Group";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+// import Gallery from "./components/Gallery";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Intro />
+      {/* <Gallery /> */}
       <Group />
       <Footer />
       <main className="px-8 mx-auto">
