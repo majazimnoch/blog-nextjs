@@ -11,7 +11,7 @@ const Intro: React.FC = () => {
         <h2 className="uppercase"><span className="bg-forest font-medium text-snow p-1 uppercase px-2">Latest post</span></h2>
         <div className="flex flex-row justify-between items-center pr-8">
           <h1 className="text-2xl text-wood">
-            <span className="bg-grass text-snow p-1 uppercase font-thin px-2">A Mountains Serenity</span>
+            <span className="bg-grass text-snow p-1 uppercase font-thin px-1">A Mountains Serenity</span>
           </h1>
           <div className="flex flex-col items-center">
             <Image
@@ -23,7 +23,7 @@ const Intro: React.FC = () => {
           </div>
         </div>
         <div className="flex lg:flex-row flex-col justify-between pr-8">
-          <h2 className="text-wood p-1 uppercase">An Unforgettable Family Gateway</h2>
+          <h2 className="text-wood uppercase">An Unforgettable Family Gateway</h2>
           <p className="antialiased text-wood text-sm">1 May 2022</p>
         </div>
         <p className="text-wood">
