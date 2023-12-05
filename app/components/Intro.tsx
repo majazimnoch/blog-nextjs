@@ -6,12 +6,13 @@ import Button from './Button';
 const Intro: React.FC = () => {
   return (
     <div className="grid px-10 py-5 lg:grid-cols-2 lg:grid-rows-1 lg:gap-x-12 lg:gap-y-0 lg:px-40 lg:py-20">
+
       <div className="flex flex-col gap-4">
         <div className="flex flex-row justify-between pr-8">
           <h1 className="text-2xl text-wood">
             <span className="bg-forest text-snow p-1 uppercase font-thin px-2">A Mountains Serenity</span>
           </h1>
-          <div className="flex flex-row">
+          <div className="flex flex-col items-center">
             <Image
               src="/images/like2.png"
               alt="like"
@@ -20,7 +21,7 @@ const Intro: React.FC = () => {
             />
           </div>
         </div>
-        <div className="flex flex-row justify-between pr-8">
+        <div className="flex lg:flex-row flex-col justify-between pr-8">
           <h2 className="text-wood p-1 uppercase">An Unforgettable Family Gateway</h2>
           <p className="antialiased text-wood text-sm">1 May 2022</p>
         </div>
