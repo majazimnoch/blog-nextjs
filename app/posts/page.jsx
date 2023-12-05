@@ -16,7 +16,7 @@ export default function page() {
     </Head>
     <div>
       <Navbar />
-      <div className="flex flex-col gap-10 gap-x-12 gap-y-0 px-40 py-10">
+      <div className="flex flex-col gap-10 gap-x-12 gap-y-0 p-10 lg:px-40 lg:py-10">
         <div className="flex flex-col gap-8">
           <h1 className="text-2xl text-wood">
           A Mountains Serenity. An Unforgettable Family Gateway
@@ -25,22 +25,22 @@ export default function page() {
             <p className="antialiased text-wood text-base">1 January 2022</p>
             <div className="flex flex-row gap-4">
                 <div className="flex flex-row gap-2">
-                    <p className="text-base">2 x </p>
-                    <Image
-                      src="/images/eyesdown.png"
-                      alt="like"
-                      height={20}
-                      width={20} 
-                    />
+                  <p className="text-base">2 x </p>
+                  <Image
+                    src="/images/eyesdown.png"
+                    alt="like"
+                    height={20}
+                    width={20} 
+                  />
                 </div>
                 <div className="flex flex-row gap-2">
-                    <p className="text-base">1 x </p>
-                    <Image
-                      src="/images/like2.png"
-                      alt="like"
-                      height={20}
-                      width={20} 
-                    />
+                  <p className="text-base">1 x </p>
+                  <Image
+                    src="/images/like2.png"
+                    alt="like"
+                    height={20}
+                    width={20} 
+                  />
                 </div>
             </div>
           </div>

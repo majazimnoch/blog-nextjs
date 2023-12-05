@@ -8,7 +8,7 @@ const Intro: React.FC = () => {
     <div className="grid px-10 py-5 lg:grid-cols-2 lg:grid-rows-1 lg:gap-x-12 lg:gap-y-0 lg:px-40 lg:py-20">
 
       <div className="flex flex-col gap-4">
-        <div className="flex flex-row justify-between pr-8">
+        <div className="flex flex-row justify-between items-center pr-8">
           <h1 className="text-2xl text-wood">
             <span className="bg-forest text-snow p-1 uppercase font-thin px-2">A Mountains Serenity</span>
           </h1>
