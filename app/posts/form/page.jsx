@@ -16,10 +16,10 @@ export default function page() {
       </Head>
       <div>
         <Navbar />
-        <div className="flex flex-col gap-10 gap-x-12 gap-y-0 px-40 py-10">
-          <div className="min-w-full mx-auto w-full">
-            <h1 className="font-bold">Write a new blog post</h1>
-            <p>Please fill in the form</p>
+        <div className="flex flex-col gap-10 gap-x-12 gap-y-0 py-5 lg:px-40 lg:py-10">
+          <div className="min-w-full mx-auto w-full text-center lg:text-left">
+            <h1 className="font-bold">Write a new blog post.</h1>
+            <p>Please fill in the form below and click the Submit button.</p>
             <Form />
           </div>
           <div className="flex flex-row gap-10 py-10">
