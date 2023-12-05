@@ -91,7 +91,7 @@ const Gallery = () => {
         open={open}
         close={() => setOpen(false)}
         plugins={[Zoom]}
-        showPrevNext={false}
+        // showPrevNext={false}
         slides={slides}
       />
     </div>

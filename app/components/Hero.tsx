@@ -1,12 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import Round from './Round';
-import Navbar from './Navbar';
+import Navbar from './Navbar'
 
-export default function Hero() {
+const Hero: React.FC = () => {
   return (
     <div className="relative h-screen w-screen overflow-hidden">
-      {/* first we have div withe the image*/}
+      {/* first, we have a div with the image */}
       <div className="absolute inset-0">
         <Image
           src="/images/hero-green.jpg"
@@ -16,13 +15,12 @@ export default function Hero() {
         />
       </div>
 
-      {/* nav is a child nr 2 */}
-
+      {/* nav is a child number 2 */}
       <div className="absolute top-0 w-full z-50">
         <Navbar />
       </div>
 
-      {/* content is a child nr 3 */}
+      {/* content is a child number 3 */}
       {/* <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 w-full">
         <p className="text-3xl text-center text-red-800">
           Hello and welcoMMme 👋
@@ -30,9 +28,10 @@ export default function Hero() {
             This is a <span className="font-bold">blog</span> made with
             Next.js, Typescript, and Tailwind.
           </span>
-          <Round />
         </p>
       </div> */}
     </div>
   );
-}
+};
+
+export default Hero;
