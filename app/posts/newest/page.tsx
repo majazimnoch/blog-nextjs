@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
-import Button from '../components/Button'
+import Button from '../../components/Button'
 import Image from 'next/image'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Group from '../components/Group'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import Group from '../../components/Group'
 
-export default function page() {
+const FirstPost: React.FC = () => {
   return (
     <>
     <Head>

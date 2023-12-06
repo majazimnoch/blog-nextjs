@@ -1,4 +1,6 @@
-import React from 'react';
+'use client' 
+
+import React, { useState } from 'react';
 import Image from 'next/image';
 import date from 'date-and-time';
 import Link from 'next/link';
@@ -7,6 +9,12 @@ import Button from './Button';
 const Navbar: React.FC = () => {
   const now = new Date();
   const formattedDate = date.format(now, 'ddd, MMM DD, YYYY');
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  }
 
   return (
     <div className="flex flex-row justify-between items-center px-5 bg-snow">
