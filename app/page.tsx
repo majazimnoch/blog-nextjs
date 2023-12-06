@@ -17,8 +17,8 @@ export default function Home() {
         <title>Blog page</title>
         <meta name="description" content="A simple Blog" />
       </Head>
-      <Navbar />
-      {/* <Hero /> */}
+      {/* <Navbar /> */}
+      <Hero />
       <Intro />
       {/* <Layer /> */}
       {/* <Gallery /> */}
