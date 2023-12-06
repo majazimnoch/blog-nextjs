@@ -1,4 +1,5 @@
-import React from 'react';
+'use client' 
+import React, {useState} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import clsx from 'clsx';
@@ -13,6 +14,7 @@ interface ArticleProps {
 }
 
 const Article: React.FC<ArticleProps> = ({ title, photo, text, articleClass, href, date }) => (
+
   <Link href={href}>
     { /*section below will have both the article class (for common styling among all articles) and the dynamic class specified by the articleClass prop (for specific styling for this individual article). */}
     <div className={clsx('article', articleClass, 'flex', 'flex-col', 'gap-10', 'justify-around')}>
@@ -39,12 +41,15 @@ const Article: React.FC<ArticleProps> = ({ title, photo, text, articleClass, hre
         />
       </div>
       <p className="text-sm antialiased text-snow">{text}</p>
-      <hr className="border border-solid border-snow"/>
+      <hr className="lg:hidden border border-solid border-snow"/>
     </div>
   </Link>
 );
 
 const Group: React.FC = () => {
+  const postsPerPage = 4; // Number of posts to display per page
+  const [currentPage, setCurrentPage] = useState(1);
+
   return (
     <div className="flex flex-col px-10 py-20 lg:grid lg:grid-cols-4 lg:grid-rows-1 lg:px-40 lg:py-20  bg-forest gap-8">
       <Article
