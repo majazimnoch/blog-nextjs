@@ -20,26 +20,19 @@ const Navbar: React.FC = () => {
 
   if (isMobile) {
     return (
-      <button
-        onClick={handleClick}
-        className="flex flex-col justify-center items-center p-10"
-      >
-        <span
-          className={`bg-grass block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
-            isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'
-          }`}
-        ></span>
-        <span
-          className={`bg-grass block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
-            isOpen ? 'opacity-0' : 'opacity-100'
-          }`}
-        ></span>
-        <span
-          className={`bg-grass block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
-            isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'
-          }`}
-        ></span>
-      </button>
+      <div className="bg-snow fixed top-0 right-0 p-10 w-full">
+        <button 
+          onClick={handleClick}
+          className="flex flex-col justify-end items-end "
+        >
+          <span
+            className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
+          <span
+            className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
+          <span
+            className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
+        </button>
+      </div>
     );
   }
 

@@ -13,7 +13,8 @@ module.exports = {
       'forest': '#233C2E',
       'snow': '#EAF1EC',
       'grass': '#8DA75E',
-      'wood': '#473948'
+      'wood': '#473948',
+      'dark': '#000000'
     },
 
     extend: {
