@@ -1,3 +1,4 @@
+'use client' 
 // Components/Gallery.js
 import React, { useState } from "react";
 import { AiOutlineExpandAlt } from "react-icons/ai";

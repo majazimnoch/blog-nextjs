@@ -19,13 +19,12 @@ const Article: React.FC<ArticleProps> = ({ title, photo, text, articleClass, hre
       <div className="flex flex-col gap-9">
         <h1 className="text-lg antialiased text-snow font-semibold">{title}</h1>
         <div className="relative group over">
-          {/* The group class is a utility class provided by Tailwind CSS that is used to group child elements so that you can apply styles to them based on the state of a parent element (in this case, the hover state). */}
           <Image
             src={photo}
             alt="photo of an article"
             height={300}
             width={300}
-            className="transition-opacity duration-300 ease-in-out opacity-100 group-hover:opacity-70"
+            className="transition-opacity duration-300 ease-in-out opacity-100 group-hover:opacity-70 w-full sm:w-300"
           />
         </div>
       </div>
@@ -40,13 +39,14 @@ const Article: React.FC<ArticleProps> = ({ title, photo, text, articleClass, hre
         />
       </div>
       <p className="text-sm antialiased text-snow">{text}</p>
+      <hr className="border border-solid border-snow"/>
     </div>
   </Link>
 );
 
 const Group: React.FC = () => {
   return (
-    <div className="grid grid-cols-4 grid-rows-1 px-40 py-20 bg-forest gap-8">
+    <div className="flex flex-col px-10 py-20 lg:grid lg:grid-cols-4 lg:grid-rows-1 lg:px-40 lg:py-20  bg-forest gap-8">
       <Article
         title="Serenade of the Desert Sun: A Sunset Symphony"
         photo="/images/sun.jpg"
