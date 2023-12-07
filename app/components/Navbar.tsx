@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
           ></span>
           {isOpen && (
              <div className="flex flex-col gap-4 mt-2 text-center justify-start w-full underline underline-offset-8">
-              <Link href="/" className="flex flex-col text-center underline underline-offset-6">User</Link>
+              <Link href="/posts/user" className="flex flex-col text-center underline underline-offset-6">User</Link>
               <Link href="/posts/form" className="flex flex-col text-center underline underline-offset-6" >Add a new post</Link>
               <Link href="/posts/two" className="flex flex-col text-center underline underline-offset-6">Log out</Link>
              </div>
