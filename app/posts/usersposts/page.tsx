@@ -20,44 +20,49 @@ const FourthPost: React.FC = () => {
           <div className="flex flex-col min-w-full mx-auto w-full text-center lg:text-left gap-5">
             <h1 className="font-bold">Welcome NameOfTheUser.</h1>
             <div className="flex flex-row gap-5">
-              <Link href="/">
-                <Button label="Edit your info" colour={"yellow"} large />
+              <Link href="/posts/form">
+                <Button label="Add a new post" colour={"yellow"} large />
               </Link>
-              <Link href="/posts/usersposts">
-                <Button label="Go to your all posts" colour={"yellow"} large />
+              <Link href="/posts/user">
+                <Button label="Go to your profile" colour={"yellow"} large />
               </Link>
             </div>
-            <div className="lg:grid lg:grid-cols-3 lg:grid-rows-1 lg:gap-5 bg-snow p-5">
-              <div>
-                <Image
-                  src="/images/paris.jpg"
-                  alt="logo"
-                  width={450}
-                  height={30}
-                />
-              </div>
-              <div className="p-5 lg:p-0">
-                <div className="flex flex-col">
-                  <h3>My top afirmation (what I repeat every day): </h3>
-                  <p>Answer</p>
+       
+            <div className="flex flex-col gap-5">
+              <h1 className="font-bold">Your all posts</h1>
+              <div className="flex flex-row gap-40 bg-snow p-5">
+                <div>
+                  <h1>/Title of the post</h1>
+                  <p>Published: /when</p>
                 </div>
-                <div className="flex flex-col">
-                  <h3>My personal growth moment: </h3>
-                  <p>Answer</p>
-                </div>
-                <div className="flex flex-col">
-                  <h3>I am forever grateful for: </h3>
-                  <p>Answer</p>
-                </div>
-                <div className="flex flex-col">
-                  <h3>A book/movie quote that inspires me: </h3>
-                  <p>Answer</p>
-                </div>
-                <div className="flex flex-col">
-                  <h3>My save place: </h3>
-                  <p>Answer</p>
+                <div>
+                  <Image
+                    src="/images/logo-b.png"
+                    alt="logo"
+                    width={30}
+                    height={30}
+                    className="rounded"
+                  />
                 </div>
               </div>
+
+              <div className="flex flex-row gap-40 bg-snow p-5">
+                <div>
+                  <h1>/Title of the post</h1>
+                  <p>Published: /when</p>
+                </div>
+                <div>
+                  <Image
+                    src="/images/logo-b.png"
+                    alt="logo"
+                    width={30}
+                    height={30}
+                    className="rounded"
+                  />
+                </div>
+              </div>
+
+
             </div>
           </div>
           <div className="flex flex-row gap-10 px-5 py-10 ">

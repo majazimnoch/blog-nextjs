@@ -26,7 +26,7 @@ export default function Page() {
             <Link href="/">
               <Button label="Go to the main page" colour={"yellow"} large />
             </Link>
-            <Link href="/">
+            <Link href="/posts/usersposts">
               <Button label="Go see your all posts" colour={"yellow"} large />
             </Link>
           </div>

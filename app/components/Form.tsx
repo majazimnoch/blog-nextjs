@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Form: React.FC = () => {
 
   return (
-    <form className="min-w-full max-w-md mx-auto mt-4 p-10 bg-white shadow-md bg-snow">
+    <form className="min-w-full max-w-md mx-auto mt-4 p-5 bg-white shadow-md bg-snow">
       <div className="flex flex-col">
         <label htmlFor="title" className="py-6 bg-white text-black text-sm uppercase tracking-normal font-medium">
           Title of your blog post:
