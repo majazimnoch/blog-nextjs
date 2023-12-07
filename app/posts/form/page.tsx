@@ -6,7 +6,6 @@ import Navbar from '../../components/Navbar';
 import Group from '../../components/Group';
 import Footer from '../../components/Footer';
 import Form from '../../components/Form';
-import Hero from '@/app/components/Hero';
 
 export default function Page() {
   return (
@@ -16,7 +15,7 @@ export default function Page() {
         <link rel="icon" href="favicon.ico" />
       </Head>
       <div>
-        <Hero />
+        <Navbar />
         <div className="flex flex-col gap-10 gap-x-12 gap-y-0 py-5 lg:px-40 lg:py-10">
           <div className="min-w-full mx-auto w-full text-center lg:text-left">
             <h1 className="font-bold">Write a new blog post.</h1>
