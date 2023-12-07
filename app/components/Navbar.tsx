@@ -84,7 +84,7 @@ const Navbar: React.FC = () => {
         </p>
       </div>
       <div className="flex flex-row gap-5">
-        <Link href="/posts">
+        <Link href="/posts/user">
           <Button label="User" colour="yellow" large />
         </Link>
         <Link href="/posts/form">

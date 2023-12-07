@@ -81,7 +81,7 @@ const Group: React.FC = () => {
         photo="/images/spa.jpg"
         text="Welcome to a journey where serenity takes precedence and the hum of technology fades into the background. In a world marked by perpetual connectivity, the idea of escaping to a spa for a weekend without the intrusion of technology has become a beacon of tranquility."
         articleClass="article-4"
-        href="/posts/four"
+        href="/posts/three"
         date="29 January 2022"
       />
     </div>
