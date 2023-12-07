@@ -30,7 +30,7 @@ const FourthPost: React.FC = () => {
        
             <div className="flex flex-col gap-5">
               <h1 className="font-bold">Your all posts</h1>
-              <div className="flex flex-row gap-40 bg-snow p-5">
+              <div className="flex flex-row gap-40 bg-snow p-5 transition duration-300 ease-in-out hover:border-gray-500 hover:shadow-lg">
                 <div>
                   <h1>/Title of the post</h1>
                   <p>Published: /when</p>
@@ -46,7 +46,7 @@ const FourthPost: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex flex-row gap-40 bg-snow p-5">
+              <div className="flex flex-row gap-40 bg-snow p-5 transition duration-300 ease-in-out hover:border-gray-500 hover:shadow-lg">
                 <div>
                   <h1>/Title of the post</h1>
                   <p>Published: /when</p>

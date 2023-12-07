@@ -73,7 +73,7 @@ const Group: React.FC = () => {
         photo="/images/snorkeling.jpg"
         text="In the hustle of modernity, a decision brewed—a weekend voyage to the enigmatic waters of Galápagos. Picture this as a diary, a chronicle of my plunge into underwater serenity, leaving behind the digital chatter for the immersive silence of the ocean."
         articleClass="article-3"
-        href="/posts/three"
+        href="/posts/two"
         date="19 January 2022"
       />
       <Article
@@ -81,7 +81,7 @@ const Group: React.FC = () => {
         photo="/images/spa.jpg"
         text="Welcome to a journey where serenity takes precedence and the hum of technology fades into the background. In a world marked by perpetual connectivity, the idea of escaping to a spa for a weekend without the intrusion of technology has become a beacon of tranquility."
         articleClass="article-4"
-        href="/posts/three"
+        href="/posts/two"
         date="29 January 2022"
       />
     </div>

@@ -12,7 +12,7 @@ const Posts: React.FC = () => {
             </Head>
             <div>
                 <h1>
-                    First or Second post
+                    First, third or Second post
                 </h1>
                 <h2>
                     <Link href="/">
