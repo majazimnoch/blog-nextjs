@@ -17,7 +17,7 @@ export default function Page() {
       <div>
         <Navbar />
         <div className="flex flex-col gap-10 gap-x-12 gap-y-0 py-5 lg:px-40 lg:py-10">
-          <div className="min-w-full mx-auto w-full text-center lg:text-left">
+          <div className="min-w-full mx-auto w-full text-center lg:text-left py-5 flex flex-col gap-5">
             <h1 className="font-bold">Write a new blog post.</h1>
             <p>Please fill in the form below and click the Submit button.</p>
             <Form />
