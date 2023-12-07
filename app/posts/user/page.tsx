@@ -37,9 +37,9 @@ const FourthPost: React.FC = () => {
                 <h3>Write more about yourself if you wish: ...</h3>
               </div>
             </div>
-            <div className="">
+            <div className="flex flex-col gap-5">
               <h1 className="font-bold">Your all posts</h1>
-              <div className="flex flex-row gap-40 border border-solid p-5">
+              <div className="flex flex-row gap-40 bg-snow p-5">
                 <div>
                   <h1>/Title of the post</h1>
                   <p>Published: /when</p>
@@ -54,6 +54,24 @@ const FourthPost: React.FC = () => {
                   />
                 </div>
               </div>
+
+              <div className="flex flex-row gap-40 bg-snow p-5">
+                <div>
+                  <h1>/Title of the post</h1>
+                  <p>Published: /when</p>
+                </div>
+                <div>
+                  <Image
+                    src="/images/logo-b.png"
+                    alt="logo"
+                    width={30}
+                    height={30}
+                    className="rounded"
+                  />
+                </div>
+              </div>
+
+
             </div>
           </div>
           <div className="flex flex-row gap-10 px-5 py-10 ">
