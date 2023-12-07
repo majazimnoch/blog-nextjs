@@ -3,15 +3,13 @@
 @tailwind utilities;
 
 
-body {
-  
-}
 
-.dot {
-  height: 50px;
-  width: 50px;
-  background-color: #20870b;
-  border-radius: 50%;
-  display: inline-block;
+@layer base {
+  @font-face {
+    font-family: 'Maven';
+    src: url('./../public/fonts/Maven-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
 }
-

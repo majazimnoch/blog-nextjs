@@ -18,6 +18,9 @@ module.exports = {
     },
 
     extend: {
+      fontFamily: {
+        maven: 'Maven, regular'
+      },
       screens: {
         'tablet': '640px',  // Example tablet breakpoint
         'mobile': '480px',  // Example mobile breakpoint
