@@ -7,7 +7,7 @@ import Image from 'next/image';
 import Group from '@/app/components/Group';
 import Footer from '@/app/components/Footer';
 
-const FourthPost: React.FC = () => {
+const CreateProfile: React.FC = () => {
   return (
     <>
       <Head>
@@ -20,11 +20,8 @@ const FourthPost: React.FC = () => {
           <div className="flex flex-col min-w-full mx-auto w-full text-center lg:text-left gap-5">
             <h1 className="font-bold">Welcome NameOfTheUser.</h1>
             <div className="flex flex-row gap-5 justify-center lg:justify-start">
-              <Link href="/posts/editprofile">
-                <Button label="Edit your info" colour={"yellow"} large />
-              </Link>
-              <Link href="/posts/usersposts">
-                <Button label="Go to your all posts" colour={"yellow"} large />
+              <Link href="/">
+                <Button label="Go back to your profile" colour={"yellow"} large />
               </Link>
             </div>
             <div className="lg:grid lg:grid-cols-3 lg:grid-rows-1 lg:gap-5 bg-snow p-5">
@@ -73,4 +70,4 @@ const FourthPost: React.FC = () => {
   );
 };
 
-export default FourthPost;
+export default CreateProfile;

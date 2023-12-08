@@ -19,7 +19,7 @@ const FourthPost: React.FC = () => {
         <div className="flex flex-col gap-10 gap-x-12 gap-y-0 py-5 lg:px-40 lg:py-10 m-5">
           <div className="flex flex-col min-w-full mx-auto w-full text-center lg:text-left gap-5">
             <h1 className="font-bold">Welcome NameOfTheUser.</h1>
-            <div className="flex flex-row gap-5">
+            <div className="flex flex-row gap-5 justify-center lg:justify-start">
               <Link href="/posts/form">
                 <Button label="Add a new post" colour={"yellow"} large />
               </Link>
