@@ -19,7 +19,6 @@ const Login: React.FC = () => {
       <div>
         <Navbar />
         <LoginScreen />
-        <GoToTheMainPage />
         <Group />
         <Footer />
       </div>
