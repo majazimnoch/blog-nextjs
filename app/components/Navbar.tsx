@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
         <Link href="/posts/form">
           <Button label="Add a new post" colour="yellow" large />
         </Link>
-        <Link href="/posts">
+        <Link href="/posts/login">
           <Button label="Log out" colour="yellow" large />
         </Link>
       </div>

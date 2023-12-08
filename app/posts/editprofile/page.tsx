@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Group from '@/app/components/Group';
 import Footer from '@/app/components/Footer';
+import GoToTheMainPage from '@/app/components/GoToTheMainPage';
 
 const EditProfile: React.FC = () => {
   return (
@@ -53,6 +54,7 @@ const EditProfile: React.FC = () => {
                     <input
                     type="text"
                     id="user-info-afirmation"
+                    placeholder="Type here"
                     className="resize-none px-3 py-2 focus:outline-none focus:ring focus:border-transparent-300"
                     />
                 </div>
@@ -64,6 +66,7 @@ const EditProfile: React.FC = () => {
                     <input
                     type="text"
                     id="user-info-afirmation"
+                    placeholder="Type here"
                     className="resize-none px-3 py-2 focus:outline-none focus:ring focus:border-transparent-300"
                     />
                 </div>
@@ -75,6 +78,7 @@ const EditProfile: React.FC = () => {
                     <input
                     type="text"
                     id="user-info-afirmation"
+                    placeholder="Type here"
                     className="resize-none px-3 py-2 focus:outline-none focus:ring focus:border-transparent-300"
                     />
                 </div>
@@ -86,6 +90,7 @@ const EditProfile: React.FC = () => {
                     <input
                     type="text"
                     id="user-info-afirmation"
+                    placeholder="Type here"
                     className="resize-none px-3 py-2 focus:outline-none focus:ring focus:border-transparent-300"
                     />
                 </div>
@@ -97,6 +102,7 @@ const EditProfile: React.FC = () => {
                     <input
                     type="text"
                     id="user-info-afirmation"
+                    placeholder="Type here"
                     className="resize-none px-3 py-2 focus:outline-none focus:ring focus:border-transparent-300"
                     />
                 </div>
@@ -104,12 +110,7 @@ const EditProfile: React.FC = () => {
             </form>
             </div>
           </div>
-
-          <div className="flex flex-row gap-10 px-5 py-10 ">
-            <Link href="/">
-              <Button label="Go to the main page" colour={"yellow"} large />
-            </Link>
-          </div>
+          <GoToTheMainPage />
         </div>
         <Group />
         <Footer />

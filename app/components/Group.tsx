@@ -57,7 +57,7 @@ const Group: React.FC = () => {
         photo="/images/sun.jpg"
         text="In the vast expanse of the desert, where time slows and silence reigns, I witnessed a spectacle that transcends earthly beauty—the desert sunset. Join me in this diary entry, a poetic reflection on the mesmerizing dance of colors as the sun bids adieu to the arid landscape, leaving behind a canvas painted in hues of warmth and wonder."
         articleClass="article-1"
-        href="/posts/two"
+        href="/posts"
         date="1 January 2022"
       />
       <Article
@@ -65,7 +65,7 @@ const Group: React.FC = () => {
         photo="/images/paris.jpg"
         text="In the heart of Paris, where cobblestone streets tell tales of artistry, Montmartre beckons—an enclave of creative magic. Join me in a chronicle of whimsical encounters with Dali, the enchanting lanes, and the irresistible allure of pastries that paint Paris in a palette of surreal delights."
         articleClass="article-2"
-        href="/posts/two"
+        href="/posts"
         date="12 January 2022"
       />
       <Article
@@ -73,7 +73,7 @@ const Group: React.FC = () => {
         photo="/images/snorkeling.jpg"
         text="In the hustle of modernity, a decision brewed—a weekend voyage to the enigmatic waters of Galápagos. Picture this as a diary, a chronicle of my plunge into underwater serenity, leaving behind the digital chatter for the immersive silence of the ocean."
         articleClass="article-3"
-        href="/posts/two"
+        href="/posts"
         date="19 January 2022"
       />
       <Article
@@ -81,7 +81,7 @@ const Group: React.FC = () => {
         photo="/images/spa.jpg"
         text="Welcome to a journey where serenity takes precedence and the hum of technology fades into the background. In a world marked by perpetual connectivity, the idea of escaping to a spa for a weekend without the intrusion of technology has become a beacon of tranquility."
         articleClass="article-4"
-        href="/posts/two"
+        href="/posts"
         date="29 January 2022"
       />
     </div>

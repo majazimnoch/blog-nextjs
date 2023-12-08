@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Group from '@/app/components/Group';
 import Footer from '@/app/components/Footer';
+import GoToTheMainPage from '@/app/components/GoToTheMainPage';
 
 const CreateProfile: React.FC = () => {
   return (
@@ -57,11 +58,7 @@ const CreateProfile: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-row gap-10 px-5 py-10 ">
-            <Link href="/">
-              <Button label="Go to the main page" colour={"yellow"} large />
-            </Link>
-          </div>
+          <GoToTheMainPage />
         </div>
         <Group />
         <Footer />
