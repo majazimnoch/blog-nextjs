@@ -45,30 +45,66 @@ const EditProfile: React.FC = () => {
                     <p className="text-xs">Click to upload a photo</p>
                 </div>
               </div>
-              <div className="p-5 lg:p-0">
-                <div className="flex flex-col">
-                  <h3>My top afirmation (what I repeat every day): </h3>
-                  <p>Answer</p>
+              <form className="col-span-2 min-w-full max-w-md mx-auto bg-snow">
+                <div className="flex flex-col gap-2">
+                    <label htmlFor="title" className=" bg-white text-black text-sm ">
+                        My top afirmation (what I repeat every day):
+                    </label>
+                    <input
+                    type="text"
+                    id="user-info-afirmation"
+                    className="resize-none px-3 py-2 focus:outline-none focus:ring focus:border-transparent-300"
+                    />
                 </div>
-                <div className="flex flex-col">
-                  <h3>My personal growth moment: </h3>
-                  <p>Answer</p>
+
+                <div className="flex flex-col gap-2">
+                    <label htmlFor="title" className=" bg-white text-black text-sm ">
+                    My personal growth moment:
+                    </label>
+                    <input
+                    type="text"
+                    id="user-info-afirmation"
+                    className="resize-none px-3 py-2 focus:outline-none focus:ring focus:border-transparent-300"
+                    />
                 </div>
-                <div className="flex flex-col">
-                  <h3>I am forever grateful for: </h3>
-                  <p>Answer</p>
+
+                <div className="flex flex-col gap-2">
+                    <label htmlFor="title" className=" bg-white text-black text-sm ">
+                    I am forever grateful for: 
+                    </label>
+                    <input
+                    type="text"
+                    id="user-info-afirmation"
+                    className="resize-none px-3 py-2 focus:outline-none focus:ring focus:border-transparent-300"
+                    />
                 </div>
-                <div className="flex flex-col">
-                  <h3>A book/movie quote that inspires me: </h3>
-                  <p>Answer</p>
+
+                <div className="flex flex-col gap-2">
+                    <label htmlFor="title" className=" bg-white text-black text-sm ">
+                    A book/movie quote that inspires me:
+                    </label>
+                    <input
+                    type="text"
+                    id="user-info-afirmation"
+                    className="resize-none px-3 py-2 focus:outline-none focus:ring focus:border-transparent-300"
+                    />
                 </div>
-                <div className="flex flex-col">
-                  <h3>My save place: </h3>
-                  <p>Answer</p>
+
+                <div className="flex flex-col gap-2">
+                    <label htmlFor="title" className=" bg-white text-black text-sm ">
+                    My safe place:
+                    </label>
+                    <input
+                    type="text"
+                    id="user-info-afirmation"
+                    className="resize-none px-3 py-2 focus:outline-none focus:ring focus:border-transparent-300"
+                    />
                 </div>
-              </div>
+
+            </form>
             </div>
           </div>
+
           <div className="flex flex-row gap-10 px-5 py-10 ">
             <Link href="/">
               <Button label="Go to the main page" colour={"yellow"} large />

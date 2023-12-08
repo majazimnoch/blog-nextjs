@@ -54,7 +54,7 @@ const FourthPost: React.FC = () => {
                   <p>Answer</p>
                 </div>
                 <div className="flex flex-col">
-                  <h3>My save place: </h3>
+                  <h3>My safe place: </h3>
                   <p>Answer</p>
                 </div>
               </div>
