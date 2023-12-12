@@ -17,11 +17,15 @@ const LoginScreen: React.FC = () => {
     />
        <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
         <div className="lg:w-2/5 md:w-1/2 w-3/4 relative z-10">
-          <form 
+          <form
           name="contact"
           method="POST"
           data-netlify="true"
+          action=""
           className="bg-snow p-10 rounded-lg shadow-lg min-w-full">
+            
+            <input type="hidden" name="form-name" value="contact" />
+
             <h1 className="text-center text-2xl mb-6 font-bold">Form register</h1>
             <div>
               <label className="text-gray-800 font-semibold block my-3 text-md">Username</label>
