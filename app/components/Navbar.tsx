@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
              <div className="flex flex-col gap-4 mt-2 text-center justify-start w-full underline underline-offset-8">
               <Link href="/posts/user" className="flex flex-col text-center underline underline-offset-6">User</Link>
               <Link href="/posts/form" className="flex flex-col text-center underline underline-offset-6" >Add a new post</Link>
-              <Link href="/posts/two" className="flex flex-col text-center underline underline-offset-6">Log out</Link>
+              <Link href="/posts/login" className="flex flex-col text-center underline underline-offset-6">Log out</Link>
              </div>
           )}
         </button>
