@@ -21,7 +21,6 @@ const LoginScreen: React.FC = () => {
           name="contact"
           method="POST"
           data-netlify="true"
-          onSubmit="submit"
           className="bg-snow p-10 rounded-lg shadow-lg min-w-full">
             <h1 className="text-center text-2xl mb-6 font-bold">Form register</h1>
             <div>
