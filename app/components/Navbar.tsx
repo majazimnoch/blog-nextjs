@@ -12,11 +12,16 @@ const Navbar: React.FC = () => {
 
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+    // to distinguish between logged in and not logged in
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleClick = () => {
     setIsOpen(!isOpen);
   }
 
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+  }
 
   useEffect(() => {
     const handleResize = () => {
@@ -55,14 +60,25 @@ const Navbar: React.FC = () => {
               isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'
             }`}
           ></span>
-          {isOpen && (
-             <div className="flex flex-col gap-4 mt-2 text-center justify-start w-full underline underline-offset-8">
-              <Link href="/posts/user" className="flex flex-col text-center underline underline-offset-6">User</Link>
-              <Link href="/posts/form" className="flex flex-col text-center underline underline-offset-6" >Add a new post</Link>
-              <Link href="/posts/login" className="flex flex-col text-center underline underline-offset-6">Log in</Link>
-             </div>
-          )}
         </button>
+        {isOpen && (
+          <div className="flex flex-col gap-4 mt-2 text-center justify-start w-full underline underline-offset-8">
+            <Link href="/posts/user" className="flex flex-col text-center underline underline-offset-6">User
+            </Link>
+            <Link href="/posts/form" className="flex flex-col text-center underline underline-offset-6">Add a new post
+            </Link>
+            {isLoggedIn ? (
+               <Link href="/" className="flex flex-col text-center underline underline-offset-6">Log out
+               </Link>) : (
+                  <>
+                  <Link href="/posts/login" className="flex flex-col text-center underline underline-offset-6">Register
+                  </Link>
+                  <Link href="/posts/login" className="flex flex-col text-center underline underline-offset-6">Log in
+                  </Link>
+                </>
+               )}
+          </div>
+        )}
       </div>
     );
   }
@@ -99,5 +115,3 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
-
-
