@@ -5,7 +5,7 @@ import Image from 'next/image';
 import date from 'date-and-time';
 import Link from 'next/link';
 import Button from './Button';
-
+import ButtonTwo from './ButtonTwo';
 const Navbar: React.FC = () => {
   const now = new Date();
   const formattedDate = date.format(now, 'ddd, MMM DD, YYYY');
@@ -13,12 +13,13 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
     // to distinguish between logged in and not logged in
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   const handleClick = () => {
     setIsOpen(!isOpen);
   }
 
+  // The const isLoggedIn is used to keep track of the user's login status. It's a state variable that holds a boolean value indicating whether the user is currently logged in or not. On the other hand, const handleLogout is a function that updates the state variable isLoggedIn.
   const handleLogout = () => {
     setIsLoggedIn(false);
   }
@@ -68,13 +69,12 @@ const Navbar: React.FC = () => {
             <Link href="/posts/form" className="flex flex-col text-center underline underline-offset-6">Add a new post
             </Link>
             {isLoggedIn ? (
-               <Link href="/" className="flex flex-col text-center underline underline-offset-6">Log out
-               </Link>) : (
+               <ButtonTwo label="Log out" colour="yellow" onClick={handleLogout} />) : (
                   <>
-                  <Link href="/posts/login" className="flex flex-col text-center underline underline-offset-6">Register
-                  </Link>
-                  <Link href="/posts/login" className="flex flex-col text-center underline underline-offset-6">Log in
-                  </Link>
+                    <Link href="/posts/login" className="flex flex-col text-center underline underline-offset-6">Register
+                    </Link>
+                    <Link href="/posts/login" className="flex flex-col text-center underline underline-offset-6">Log in
+                    </Link>
                 </>
                )}
           </div>
@@ -106,9 +106,18 @@ const Navbar: React.FC = () => {
         <Link href="/posts/form">
           <Button label="Add a new post" colour="yellow" large />
         </Link>
-        <Link href="/posts/login">
-          <Button label="Log in" colour="yellow" large />
-        </Link>
+        {isLoggedIn ? (
+          <ButtonTwo label="Logout" colour="yellow" large onClick={handleLogout} />
+        ): (
+          <>
+            <Link href="/posts/login">
+              <Button label="Register" colour="yellow" large />
+            </Link>
+            <Link href="/posts/login">
+              <Button label="Log in" colour="yellow" large />
+            </Link>
+          </>
+        )}
       </div>
     </div>
   );
